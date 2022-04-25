@@ -20,14 +20,14 @@ export default class Controller {
 
   subscribeStream() {
     this.postStream$ = ajax
-      .getJSON("https://serg-heroku.herokuapp.com/posts/latest")
+      .getJSON("https://https://rxjs1-heroku.herokuapp.com/posts/latest")
       .pipe(
         pluck("data"),
         switchMap((posts) => {
           const postsAndComments = posts.map((post) =>
             ajax
               .getJSON(
-                `https://serg-heroku.herokuapp.com/posts/${post.id}/comments/latest`
+                `https://https://rxjs1-heroku.herokuapp.com/posts/${post.id}/comments/latest`
               )
               .pipe(
                 pluck("data"),
