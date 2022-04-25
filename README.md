@@ -1,5 +1,5 @@
 
-[Server fixed](https://serg-heroku.herokuapp.com/)
+[Server fixed](https://rxjs1-heroku.herokuapp.com/)
 
 [GH-Page](https://sergl82.github.io/ahj-11.2_RxJS/)
 
